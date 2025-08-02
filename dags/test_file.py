@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 from airflow import DAG
-from airflow.operators.python import PythonOperator
+from airflow.operators.python_operator import PythonOperator
 
 def say_hello():
     print("Hello, Airflow!")
